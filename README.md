@@ -1,7 +1,14 @@
+# Introduction
+
 This repository will allow you compile pony programs using the esp-idf environment.
+
+# Requirements
 
 The esp-idf environment must already be installed. The "$IDF_PATH" must already be set.
 Additionally some of the existing tools use docker. So it needs to be installed.
+
+
+# Installation
 
 To install, simply execute the "install.sh" script. This script will do the following:
 
