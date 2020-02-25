@@ -15,4 +15,4 @@ git apply  $patch_path
 
 echo "Installing ponyc.sh"
 compiler_path=$(pwd)/helpers/ponyc.sh
-install $compiler_path /usr/local/bin/ponyc.sh
+install $compiler_path /usr/local/bin/
