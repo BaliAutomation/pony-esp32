@@ -1,6 +1,7 @@
-This repository will allow you compile pony program using the esp-idf environment.
+This repository will allow you compile pony programs using the esp-idf environment.
 
-To install.sh script will do the following:
+To install, simply execute the "install.sh" script. This script will do the following:
+
 1) Modify the esp-idf makefiles to take into account pony source files. 
    This include files that have ".pony" extension. The modification are 
    extracted from helpers/makefile.patch
@@ -9,4 +10,4 @@ To install.sh script will do the following:
    This executable is responsible of converting pony source files into
    objects.
 
-Note: This is currently a highly experimental repository.
+Note: This is a highly experimental repository.
