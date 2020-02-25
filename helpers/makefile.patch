@@ -29,7 +29,7 @@ index 9817d50..e15d279 100644
  	$(CFLAGS) \
  	$(EXTRA_CFLAGS))
  
-+PONYFLAGS:=""
++PONYFLAGS:=
 +
  # List of flags to pass to C++ compiler
  # If any flags are defined in application Makefile, add them at the end.
